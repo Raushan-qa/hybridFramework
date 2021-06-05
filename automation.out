@@ -1,20 +1,21 @@
-2021-06-05 20:55:58 INFO  TestBase:113 - loading config.properties
-2021-06-05 20:55:58 INFO  TestBase:118 - loading or.properties
-2021-06-05 20:55:58 INFO  TestBase:123 - loading homepage.properties
-2021-06-05 20:56:09 INFO  WaitHelper:29 - 20
-2021-06-05 20:56:09 INFO  WaitHelper:34 - 240
-2021-06-05 20:56:09 INFO  LoginTest:17 - com.hybridFramework.loginPage.LoginTest started
-2021-06-05 20:56:17 INFO  WaitHelper:58 - element found...Sign in
-2021-06-05 20:56:17 INFO  LoginPage:53 - clicked on sign in link...
-2021-06-05 20:56:20 INFO  LoginPage:58 - entering email address....raushan.qa@gmail.com
-2021-06-05 20:56:20 INFO  LoginPage:63 - entering password....welcome
-2021-06-05 20:56:20 INFO  LoginPage:68 - clicking on submit button...
-2021-06-05 20:56:20 INFO  JavaScriptHelper:24 - window.scrollTo(0, document.body.scrollHeight)
-2021-06-05 20:56:23 INFO  WaitHelper:58 - element found...WOMEN
-2021-06-05 20:56:33 INFO  GenericHelper:57 - org.openqa.selenium.WebDriverException: Failed to convert data to an object
+2021-06-05 21:40:19 INFO  TestBase:113 - loading config.properties
+2021-06-05 21:40:19 INFO  TestBase:118 - loading or.properties
+2021-06-05 21:40:19 INFO  TestBase:123 - loading homepage.properties
+2021-06-05 21:40:25 INFO  WaitHelper:29 - 20
+2021-06-05 21:40:25 INFO  WaitHelper:34 - 240
+2021-06-05 21:40:25 INFO  LoginTest:17 - com.hybridFramework.loginPage.LoginTest started
+2021-06-05 21:40:50 INFO  WaitHelper:58 - element found...Sign in
+2021-06-05 21:40:50 INFO  LoginPage:53 - clicked on sign in link...
+2021-06-05 21:41:35 INFO  LoginPage:58 - entering email address....raushan.qa@gmail.com
+2021-06-05 21:41:35 INFO  LoginPage:63 - entering password....welcome
+2021-06-05 21:41:35 INFO  LoginPage:68 - clicking on submit button...
+2021-06-05 21:41:35 INFO  JavaScriptHelper:24 - window.scrollTo(0, document.body.scrollHeight)
+2021-06-05 21:42:19 INFO  WaitHelper:58 - element found...WOMEN
+2021-06-05 21:42:39 INFO  GenericHelper:57 - org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='center_column']/p
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'INJHARAU04', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 21412, moz:profile: C:\Users\jharau\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5573e909-4912-492f-8e57-fa16dd35e544
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15808, moz:profile: C:\Users\jharau\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 22002533-170e-4eca-8c9b-f88cffd4953f
 *** Element info: {Using=xpath, value=//*[@id='center_column']/p}

@@ -81,11 +81,6 @@ public class LoginPage{
 		registration.sendKeys(email);	
 	}
 	
-	public RegistrationPage clickOnCreateAnAccount(){
-		createAnAccount.click();
-		return new RegistrationPage(driver);
-	}
-	
 	public void loginToApplication(String emailAddress, String password){
 		clickOnSignInLink();
 		enterEmailAddress(emailAddress);

@@ -24,10 +24,10 @@ public class LoginTest extends TestBase{
 
 		boolean status = loginPage.verifySuccessLoginMsg();
 		if(status){
-		   log.info("login is sucessful");	
+		   log.info("login is successful");
 		}
 		else{
-			Assert.assertTrue(false, "login is not sucessful");
+			Assert.assertTrue(false, "login is not successful");
 		}
 	}
 
